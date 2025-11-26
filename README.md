@@ -1,13 +1,4 @@
 
-Folder highlights
-Project documents detail an AI Content Marketing Optimizer platform, with an agile plan for Seenu Ananth K spanning sprints from Nov 4 to Dec 27, 2024.
-
-Gemini
-Ask about your files
-Summarize this folder
-Analyze each file in this folder
-What can Gemini do with folders in Google Drive
-Gemini in Workspace can make mistakes, so double-check responses. Learn more
 # 🚀 AI-Based Automated Content Marketing Optimizer
 
 > A complete, intelligent, end-to-end automated platform for generating, optimizing, evaluating, and improving digital marketing content — powered by LLMs, sentiment engines, trend analytics, ML predictions, A/B testing, and automated model retraining.
