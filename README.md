@@ -1,144 +1,194 @@
-🚀 AI-Based Automated Content Marketing Optimizer
 
-    A complete, intelligent, end-to-end automated platform for generating, optimizing, evaluating, and improving digital marketing content — powered by LLMs, sentiment engines, trend analytics, ML predictions, A/B testing, and automated model retraining.
+Folder highlights
+Project documents detail an AI Content Marketing Optimizer platform, with an agile plan for Seenu Ananth K spanning sprints from Nov 4 to Dec 27, 2024.
 
-📌 Overview
+Gemini
+Ask about your files
+Summarize this folder
+Analyze each file in this folder
+What can Gemini do with folders in Google Drive
+Gemini in Workspace can make mistakes, so double-check responses. Learn more
+# 🚀 AI-Based Automated Content Marketing Optimizer
 
-The AI-Based Automated Content Marketing Optimizer is an advanced AI system designed to automate and enhance the full digital content marketing lifecycle, including content creation, trend optimization, sentiment scoring, performance tracking, A/B testing, and continuous ML-based learning.
+> A complete, intelligent, end-to-end automated platform for generating, optimizing, evaluating, and improving digital marketing content — powered by LLMs, sentiment engines, trend analytics, ML predictions, A/B testing, and automated model retraining.
+
+---
+
+## 📌 Overview
+
+The **AI-Based Automated Content Marketing Optimizer** is an advanced AI system designed to **automate and enhance the full digital content marketing lifecycle**, including content creation, trend optimization, sentiment scoring, performance tracking, A/B testing, and continuous ML-based learning.
 
 The system integrates:
 
-    LLaMA LLMs/Gemini api for content generation
-    Advanced Sentiment Analysis & Emotion Detection
-    Trend-based Optimization Engine
-    A/B Testing Coach
-    Real-time Slack Alerts
-    Google Sheets for metrics & logging
-    Auto-Retrainer for continuous ML model improvement
-    Interactive Streamlit Dashboard
+* **LLaMA LLMs/Gemini api** for content generation
+* **Advanced Sentiment Analysis** & **Emotion Detection**
+* **Trend-based Optimization Engine**
+* **A/B Testing Coach**
+* **Real-time Slack Alerts**
+* **Google Sheets for metrics & logging**
+* **Auto-Retrainer** for continuous ML model improvement
+* **Interactive Streamlit Dashboard**
 
-🎯 Key Objectives
-✔️ Fully Automated Content Pipeline
+
+
+---
+
+## 🎯 Key Objectives
+
+### ✔️ Fully Automated Content Pipeline
 
 Automatically generate, optimize, and score content using LLMs + sentiment + trend analysis.
-✔️ Predictive Content Intelligence
+
+
+### ✔️ Predictive Content Intelligence
 
 AI predicts which content will perform best based on historical campaigns and A/B tests.
-✔️ Continuous ML Model Retraining
+
+
+### ✔️ Continuous ML Model Retraining
 
 The system self-improves by learning from engagement metrics, sentiment, and A/B test results.
-✔️ Centralized Dashboard & Analytics
+
+
+### ✔️ Centralized Dashboard & Analytics
 
 A beautiful Streamlit dashboard for content generation, sentiment analysis, A/B testing, metrics tracking, and model training.
-🧠 System Architecture (High-Level)
-1. Content Engine
 
-Files:
 
-    content_generator.py
-    dynamic_prompt.py
-    trend_based_optimizer.py
+---
 
-Functions:
+## 🧠 System Architecture (High-Level)
 
-    Generates content variations
-    Builds dynamic prompts
-    Applies trend-based scoring & optimization
+### 1. **Content Engine**
 
-2. Sentiment & Emotion Engine
+**Files:**
 
-File: sentiment_analyzer.py
+* `content_generator.py`
+* `dynamic_prompt.py`
+* `trend_based_optimizer.py`
+
+**Functions:**
+
+* Generates content variations
+* Builds dynamic prompts
+* Applies trend-based scoring & optimization
+
+---
+
+### 2. **Sentiment & Emotion Engine**
+
+**File:** `sentiment_analyzer.py`
+
 
 Key features:
 
-    HuggingFace sentiment + emotion models
-    Trend-aware sentiment scoring
-    Toxicity estimation
-    Multi-language detection
-    Google Sheets logging
+* HuggingFace sentiment + emotion models
+* Trend-aware sentiment scoring
+* Toxicity estimation
+* Multi-language detection
+* Google Sheets logging
 
-3. A/B Testing Coach
+---
 
-File: ab_coach.py
+### 3. **A/B Testing Coach**
+
+**File:** `ab_coach.py`
+
 
 Capabilities:
 
-    A/B variant scoring
-    Probability-based performance prediction
-    Automated winner selection
-    Optional Slack notifications
+* A/B variant scoring
+* Probability-based performance prediction
+* Automated winner selection
+* Optional Slack notifications
 
-4. Metrics Hub & Tracker
+---
 
-Files:
+### 4. **Metrics Hub & Tracker**
 
-    metrics_hub.py
-    metrics_tracker.py
-    tracker.py
+**Files:**
+
+* `metrics_hub.py`
+* `metrics_tracker.py`
+* `tracker.py`
 
 Functions:
 
-    Store daily metrics
-    Record campaign performance
-    Aggregate sentiment & trend scores
-    Feed ML training dataset
+* Store daily metrics
+* Record campaign performance
+* Aggregate sentiment & trend scores
+* Feed ML training dataset
 
-5. ML Engine (Model Training + Auto Retrainer)
+---
 
-Files:
+### 5. **ML Engine (Model Training + Auto Retrainer)**
 
-    train_model.py
-    auto_retrainer.py
+**Files:**
+
+* `train_model.py`
+* `auto_retrainer.py`
 
 Features:
 
-    RandomForestClassifier + GridSearchCV
-    SMOTE balancing
-    Automatic model versioning
-    Continuous retraining pipeline
-    Slack notifications on completion
+* RandomForestClassifier + GridSearchCV
+* SMOTE balancing
+* Automatic model versioning
+* Continuous retraining pipeline
+* Slack notifications on completion
 
-6. Integrations Layer
+---
 
-Files:
+### 6. **Integrations Layer**
 
-    sheets_connector.py
-    slack_notifier.py
-    trend_fetcher.py
+**Files:**
+
+* `sheets_connector.py`
+* `slack_notifier.py`
+* `trend_fetcher.py`
 
 Used for:
 
-    Google Sheets APIs
-    Slack alerts
-    Trend scoring system
+* Google Sheets APIs
+* Slack alerts
+* Trend scoring system
 
-7. Interactive Streamlit Dashboard
+---
 
-File: streamlit_app.py
+### 7. **Interactive Streamlit Dashboard**
+
+**File:** `streamlit_app.py`
+
 
 Tabs include:
 
-    Content generation
-    Sentiment engine
-    A/B comparison
-    Metrics hub
-    Manual / Auto model training
-    Slack notifications
+* Content generation
+* Sentiment engine
+* A/B comparison
+* Metrics hub
+* Manual / Auto model training
+* Slack notifications
 
-8. Pipeline Orchestration
+---
 
-File: run.py Runs the complete workflow:
+### 8. **Pipeline Orchestration**
 
-    Generate content
-    Optimize using trends
-    Sentiment analysis
-    A/B test
-    Metrics push
-    Auto retrain
-    Slack summary
+**File:** `run.py`
+Runs the complete workflow:
 
-🗂️ Project Folder Structure
+1. Generate content
+2. Optimize using trends
+3. Sentiment analysis
+4. A/B test
+5. Metrics push
+6. Auto retrain
+7. Slack summary
 
+
+---
+
+## 🗂️ Project Folder Structure
+
+```
 AI-Content-Marketing-Optimizer/
 │
 ├── app/
@@ -171,95 +221,134 @@ AI-Content-Marketing-Optimizer/
 ├── run.py
 ├── .gitignore
 └── README.md
+```
 
-🌟 Features in Detail
-🚀 AI Content Generator
+---
 
-    Produces multiple content variations
-    Platform-specific formatting
-    Keyword-injected prompting
-    Audience + tone personalization
-    Optional trend-based rewriting
+## 🌟 Features in Detail
 
-📄 Source: content_generator.py
-📊 Trend-Aware Optimization
+### 🚀 AI Content Generator
+
+* Produces multiple content variations
+* Platform-specific formatting
+* Keyword-injected prompting
+* Audience + tone personalization
+* Optional trend-based rewriting
+
+📄 *Source:*
+`content_generator.py`
+
+
+---
+
+### 📊 Trend-Aware Optimization
 
 The optimizer enhances generated content by evaluating trending topics & keywords.
-💬 Deep Sentiment + Emotion Analysis
 
-    Sentiment (Positive/Negative/Neutral)
-    Polarity values
-    Emotion classification (Joy, Anger, Fear, etc.)
-    Trend score fusion
-    Toxicity estimation
+---
 
-🆚 A/B Variant Coach
+### 💬 Deep Sentiment + Emotion Analysis
+
+* Sentiment (Positive/Negative/Neutral)
+* Polarity values
+* Emotion classification (Joy, Anger, Fear, etc.)
+* Trend score fusion
+* Toxicity estimation
+
+
+---
+
+### 🆚 A/B Variant Coach
 
 Uses scoring logic to compute probability of success for content A and B.
-📈 Metrics Engine & Sheets Integration
+
+
+---
+
+### 📈 Metrics Engine & Sheets Integration
 
 Stores:
 
-    Impressions
-    Clicks
-    CTR
-    Trend score
-    Sentiment
-    Conversions
+* Impressions
+* Clicks
+* CTR
+* Trend score
+* Sentiment
+* Conversions
 
 Feeds into ML model.
-🤖 ML Model Training & Auto-Retraining
 
-    RandomForestClassifier
-    Hyperparameter tuning via GridSearch
-    Balanced via SMOTE
-    Auto model versioning
-    Slack notification after retrain
+---
 
-📡 Slack Notification System
+### 🤖 ML Model Training & Auto-Retraining
 
-    A/B test winner summaries
-    Auto-retrainer updates
-    Custom user messages
+* RandomForestClassifier
+* Hyperparameter tuning via GridSearch
+* Balanced via SMOTE
+* Auto model versioning
+* Slack notification after retrain
 
-🖥️ Streamlit Dashboard
+---
+
+### 📡 Slack Notification System
+
+* A/B test winner summaries
+* Auto-retrainer updates
+* Custom user messages
+
+---
+
+### 🖥️ Streamlit Dashboard
 
 Complete UI for interacting with all modules:
 
-    Generate
-    Analyze
-    Compare
-    Train
-    Log metrics
-    Send alerts
+* Generate
+* Analyze
+* Compare
+* Train
+* Log metrics
+* Send alerts
 
-⚙️ Installation
-1. Clone the repo
 
-git clone https://github.com/Meena200617/AI-Based-Automated-Content-Marketing-Optimizer
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/springboardmentor587-star/AI-Based-Automated-Content-Marketing-Optimizer.git
 cd AI-Content-Marketing-Optimizer
+```
 
-2. Create & Activate Virtual Environment
+### **2. Create & Activate Virtual Environment**
 
+```
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
+```
 
-3. Install dependencies
+### 3. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-4. Configure environment
+### 4. Configure environment
 
 Place your credentials inside:
 
+```
 /credentials
 .env
+```
 
-5. Environment Variables
+### **5. Environment Variables**
 
-Create .env file:
+Create `.env` file:
 
+```
 # Groq
 GROQ_API_KEY=your_groq_api_key
 GROQ_MODEL=llama-3.3-70b-versatile
@@ -296,55 +385,82 @@ ENABLE_SENTIMENT=true
 ENABLE_SHEETS_LOGGING=true
 ENABLE_SLACK_NOTIFICATIONS=true
 
-(Ignored automatically via .gitignore)
-6. Run the Streamlit app
+```
 
+(*Ignored automatically via .gitignore*)
+
+
+### 6. Run the Streamlit app
+
+```bash
 streamlit run streamlit_app.py
+```
 
-7. Or run the full pipeline
+### 7. Or run the full pipeline
 
+```bash
 python run.py
+```
 
-📊 How the Full Pipeline Works
+---
 
-(Managed by run.py)
+## 📊 How the Full Pipeline Works
 
-1️⃣ Generate content variations
-2️⃣ Optimize using trend analysis
-3️⃣ Sentiment & emotion scoring
-4️⃣ A/B evaluation
-5️⃣ Push metrics to Google Sheets
-6️⃣ Auto-retrain ML model
+*(Managed by `run.py`)*
+
+
+1️⃣ Generate content variations <br>
+2️⃣ Optimize using trend analysis <br>
+3️⃣ Sentiment & emotion scoring <br>
+4️⃣ A/B evaluation <br>
+5️⃣ Push metrics to Google Sheets <br>
+6️⃣ Auto-retrain ML model <br>
 7️⃣ Slack summary notification
-📉 ML Model Output
+
+---
+
+## 📉 ML Model Output
 
 The training pipeline outputs:
 
-    models/predictor.joblib → latest active model
-    models/predictor_TIMESTAMP.joblib → historical versions
+* `models/predictor.joblib` → latest active model
+* `models/predictor_TIMESTAMP.joblib` → historical versions
 
-The AutoRetrainer also saves:
 
-    models/model_TIMESTAMP.pkl
+The **AutoRetrainer** also saves:
 
-👥 Contributors
-👨‍💼 Project Lead
+* `models/model_TIMESTAMP.pkl`
 
-    Gurram Meenakshi — Lead Developer, System Architect & Mentor
 
-🎓 Student Contributors
+---
 
-    Student Name 1 — AI/ML Research Assistant
-    Student Name 2 — Module Developer (Content Engine)
-    Student Name 3 — Frontend & Streamlit UI Developer
-    Student Name 4 — Testing & QA Engineer
-    Student Name 5 — Documentation Assistant
+## 👥 Contributors
 
-🤝 Contributing
+### 👨‍💼 Project Lead  
+- **Charan Teja Mangali** — Lead Developer, System Architect & Mentor
 
-Pull requests are welcome. Open an issue for suggestions or improvements.
-📄 License
+### 🎓 Student Contributors  
+- **Student Name 1** — AI/ML Research Assistant  
+- **Student Name 2** — Module Developer (Content Engine)  
+- **Student Name 3** — Frontend & Streamlit UI Developer  
+- **Student Name 4** — Testing & QA Engineer  
+- **Student Name 5** — Documentation Assistant  
 
-This project is licensed under the MIT License.
-⭐ Support
-If you find this project useful, please give it a ⭐ on GitHub — it motivates further development!
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+Open an issue for suggestions or improvements.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please give it a **⭐ on GitHub** — it motivates further development!
